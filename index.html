@@ -2,86 +2,94 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Mi pagina web</title>
+	<title>Mi Portafolio - Angie Valencia</title>
 	<style>
 		body {
-			background-color: #f2f2f2;
+			background-color: #ffffff;
+			color: #333333;
 			font-family: Arial, sans-serif;
 			margin: 0;
 			padding: 0;
 		}
+
 		header {
-			background-color: #333;
-			color: #fff;
+			background-color: #663399;
+			color: #ffffff;
 			padding: 20px;
 		}
+
 		h1 {
 			margin: 0;
 		}
-		nav {
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-		}
+
 		nav ul {
 			list-style: none;
 			margin: 0;
 			padding: 0;
-			display: flex;
 		}
+
 		nav li {
-			margin: 0 10px;
+			display: inline-block;
+			margin-right: 20px;
 		}
+
 		nav a {
-			color: #fff;
+			color: #ffffff;
 			text-decoration: none;
 		}
-		main {
+
+		main section {
+			background-color: #ffffff;
+			padding: 20px;
 			margin: 20px;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.1);
 		}
-		section {
-			border: 1px solid #333;
-			padding: 10px;
-			margin-bottom: 20px;
-		}
-		h2 {
+
+		main h2 {
+			color: #663399;
 			margin-top: 0;
 		}
+
 		footer {
-			background-color: #333;
-			color: #fff;
-			padding: 10px;
+			background-color: #333333;
+			color: #ffffff;
+			padding: 20px;
 			text-align: center;
 		}
 	</style>
 </head>
 <body>
 	<header>
-		<h1>Bienvenido a mi página web</h1>
+		<h1>Angie Valencia</h1>
 		<nav>
 			<ul>
-				<li><a href="#">Inicio</a></li>
-				<li><a href="#">Acerca de</a></li>
-				<li><a href="#">Contacto</a></li>
+				<li><a href="#biografia">Biografía</a></li>
+				<li><a href="#servicios">Servicios</a></li>
+				<li><a href="#proyectos">Proyectos</a></li>
 			</ul>
-			<form>
-				<input type="text" placeholder="Buscar...">
-				<button>Buscar</button>
-			</form>
 		</nav>
 	</header>
+
 	<main>
-		<section>
-			<h2>Sección 1</h2>
-			<p>Este es el contenido de la sección 1.</p>
+		<section id="biografia">
+			<h2>Biografía</h2>
+			<p>Hola, mi nombre es Angie Valencia y soy un profesional especializado en marketing digital. Nací y crecí en Cali, Colombia, y he estado trabajando en el campo de marketing digital durante los últimos 5 años. Me apasiona ayudar a las empresas a alcanzar su máximo potencial y lograr el éxito a través de estrategias de marketing digital efectivas.</p>
+			<img src=https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80 alt="imagen cabecera"
 		</section>
-		<section>
-			<h2>Sección 2</h2>
-			<p>Este es el contenido de la sección 2.</p>
+
+		<section id="servicios">
+			<h2>Servicios</h2>
+			<ul>
+				<li>Estrategias de SEO</li>
+				<li>Campañas de publicidad en redes sociales</li>
+				<li>Email marketing</li>
+				<li>Optimización de la tasa de conversión</li>
+			</ul>
 		</section>
-	</main>
-	<footer>
-		<p>Derechos de autor © 2023 - Mi página web</p>
-	</footer>
-</body>
-</html>
+
+		<section id="proyectos">
+			<h2>Proyectos</h2>
+			<ul>
+				<li>Desarrollo de campañas de publicidad en Facebook para una empresa de e-commerce que resultaron en un aumento del 200% en las ventas.</li>
+				<li>Implementación de una estrategia de SEO que aumentó la visibilidad en línea de una empresa local de servicios de limpieza en un 50% en un período de 6 meses.</li>
